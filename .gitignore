@@ -1,3 +1,7 @@
+# Ignore all audio files except hello-there.mp3
+audio/*
+!audio/hello-there.mp3
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
