@@ -104,5 +104,5 @@ class Button:
         Display.screen.blit(text_surface, text_rect)
 
     def on_click(self):
-        logging.debug(f"Clicked sound button: {self.text}, {self.on_click_sound}")
+        logging.debug("Clicked sound button: %s,%s", self.text, self.on_click_sound)
         Display.soundboard.play(self.on_click_sound)
