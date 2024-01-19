@@ -36,3 +36,13 @@ jobs:
         with:
           name: soundboard
           path: soundboard.zip
+
+      - name: Add artifact to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./soundboard.zip
+          asset_name: soundboard.zip
+          asset_content_type: application/zip
