@@ -29,7 +29,7 @@ jobs:
 
       - name: Zip file
         run: |
-          zip -r soundboard.zip . -i .LICENSE .audio .README.md .soundboard.exe
+          zip -r soundboard.zip . -i ./LICENSE ./audio/ ./README.md ./soundboard.exe
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4
