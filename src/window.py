@@ -1,15 +1,15 @@
 import sys
 import time
-import pygame
-from soundboard import SoundBoard
-from typing import Callable
 import logging
+from typing import Callable
+import pygame
+
+from soundboard import SoundBoard
 
 # Define colors
 white = (255, 255, 255)
 black = (0, 0, 0)
 
-empty_function = lambda: None
 
 EventType = Callable[[], None]
 

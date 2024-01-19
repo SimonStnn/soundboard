@@ -27,8 +27,8 @@ if __name__ == "__main__":
 
         display.add_button(button)
 
-    total_width = (COLS * WIDTH) + (3 * PADDING_X) + (COLS * PADDING_X)
-    total_height = (
+    TOTAL_WIDTH = (COLS * WIDTH) + (3 * PADDING_X) + (COLS * PADDING_X)
+    TOTAL_HEIGHT = (
         ((len(display.soundboard.sounds) + COLS - 1) // COLS * HEIGHT)
         + (
             ((len(display.soundboard.sounds) + COLS - 1) // COLS - 1)
@@ -37,5 +37,5 @@ if __name__ == "__main__":
         + (4 * PADDING_Y)
     )
 
-    display.resize(total_width, total_height)
+    display.resize(TOTAL_WIDTH, TOTAL_HEIGHT)
     display.run()

@@ -8,17 +8,13 @@ class SoundBoard:
 
         self.sounds = os.listdir("./audio")
 
-    def __setup_output_device(
-        self, devicename: str | None = None, *, capture_devices: bool = False
-    ):
+    def __setup_output_device(self):
         pygame.mixer.init()
 
     def play(self, file_path: str):
         # find best match
         file_path = file_path.lower()
-        file_path = (
-            sound for sound in self.sounds if file_path in sound.lower()
-        ).__next__()
+        file_path = next((sound for sound in self.sounds if file_path in sound.lower()))
 
         pygame.mixer.music.load(os.path.join("./audio", file_path))
         pygame.mixer.music.play()
