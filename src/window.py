@@ -81,19 +81,19 @@ class Button:
         y: int,
         width: int,
         height: int,
-        text: str,
-        *,
-        font_size: int = 36,
-        on_click_sound: str,
+        sound: str,
     ):
         self.x = x
         self.y = y
         self.width = width
         self.height = height
         self.rect = pygame.Rect(x, y, width, height)
-        self.font = pygame.font.Font(None, font_size)
-        self.text = text
-        self.on_click_sound = on_click_sound
+        self.on_click_sound = sound
+        self.font = pygame.font.Font(None, 36)
+
+    @property
+    def text(self):
+        return self.on_click_sound[0].upper() + self.on_click_sound[1:3]
 
     def draw(self):
         pygame.draw.rect(Display.screen, white, self.rect)

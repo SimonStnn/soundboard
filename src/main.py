@@ -16,24 +16,14 @@ if __name__ == "__main__":
         x = (2 * PADDING_X) + (column * PADDING_X) + (column * WIDTH)
         y = (2 * PADDING_Y) + (row * PADDING_Y) + (row * HEIGHT)
 
-        button = window.Button(
-            x,
-            y,
-            WIDTH,
-            HEIGHT,
-            sound[0].upper() + sound[1:3].lower(),
-            on_click_sound=sound,
-        )
+        button = window.Button(x, y, WIDTH, HEIGHT, sound)
 
         display.add_button(button)
 
     TOTAL_WIDTH = (COLS * WIDTH) + (3 * PADDING_X) + (COLS * PADDING_X)
     TOTAL_HEIGHT = (
         ((len(display.soundboard.sounds) + COLS - 1) // COLS * HEIGHT)
-        + (
-            ((len(display.soundboard.sounds) + COLS - 1) // COLS - 1)
-            * PADDING_Y
-        )
+        + (((len(display.soundboard.sounds) + COLS - 1) // COLS - 1) * PADDING_Y)
         + (4 * PADDING_Y)
     )
 
