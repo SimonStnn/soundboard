@@ -1,3 +1,5 @@
+# pylint: disable=no-member
+
 import sys
 import time
 import logging
