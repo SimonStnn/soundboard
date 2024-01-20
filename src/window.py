@@ -48,7 +48,7 @@ class Display:
         pygame.display.set_mode((width, height))
 
     def _render(self):
-        Display.screen.fill(white)
+        Display.screen.fill(config_manager.config["background_color"])
 
         # Render buttons in grid of 4 x 2
         for button in self.buttons:
