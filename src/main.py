@@ -1,14 +1,14 @@
 import window
-
+import config_manager
 
 if __name__ == "__main__":
     display = window.Display()
 
-    PADDING_X = 20
-    PADDING_Y = 20
-    WIDTH = 80
-    HEIGHT = 80
-    COLS = 4
+    PADDING_X = config_manager.config["button"]["padding_x"]
+    PADDING_Y = config_manager.config["button"]["padding_y"]
+    WIDTH = config_manager.config["button"]["width"]
+    HEIGHT = config_manager.config["button"]["height"]
+    COLS = config_manager.config["grid_columns"]
 
     for i, sound in enumerate(display.soundboard.sounds):
         column = i % COLS
