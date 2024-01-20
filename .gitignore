@@ -5,6 +5,9 @@ audio/*
 # Ignore built exe file
 /*.exe
 
+# Ignore config file
+config.yaml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
