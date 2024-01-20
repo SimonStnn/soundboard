@@ -7,6 +7,7 @@ from typing import Callable
 import pygame
 
 from soundboard import SoundBoard
+import config_manager
 
 # Define colors
 white = (255, 255, 255)
@@ -102,10 +103,12 @@ class Button:
         return self.on_click_sound[0].upper() + self.on_click_sound[1:3]
 
     def draw(self):
-        pygame.draw.rect(Display.screen, white, self.rect)
-        pygame.draw.rect(Display.screen, black, self.rect, 2)
+        background_color = config_manager.config["button"]["background_color"]
+        color = config_manager.config["button"]["color"]
+        pygame.draw.rect(Display.screen, background_color, self.rect)
+        pygame.draw.rect(Display.screen, color, self.rect, 2)
 
-        text_surface = self.font.render(self.text, True, black)
+        text_surface = self.font.render(self.text, True, color)
         text_rect = text_surface.get_rect(center=self.rect.center)
         Display.screen.blit(text_surface, text_rect)
 
