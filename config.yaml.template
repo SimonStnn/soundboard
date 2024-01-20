@@ -1,13 +1,13 @@
 grid_columns: 4
-background_color: "#ffffff"
+background_color: "#0c0a09"
 
 button:
   # Space around the button
-  padding_x: 20
-  padding_y: 20
+  padding_x: 18
+  padding_y: 18
   # Size of the button
-  width: 100
-  height: 100
+  width: 90
+  height: 75
   # Color of the button in hex format
-  color: "#000000"
-  background_color: "#ffffff"
+  color: "#22c55e"
+  background_color: "#1c1917"
