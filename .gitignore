@@ -2,6 +2,9 @@
 audio/*
 !audio/hello-there.mp3
 
+# Ignore built exe file
+/*.exe
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
