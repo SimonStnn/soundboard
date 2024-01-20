@@ -1,4 +1,5 @@
 grid_columns: 4
+background_color: "#ffffff"
 
 button:
   # Space around the button

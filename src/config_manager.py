@@ -14,6 +14,7 @@ class ButtonConfig(TypedDict):
 
 class Config(TypedDict):
     grid_columns: int
+    background_color: str
     button: ButtonConfig
 
 
