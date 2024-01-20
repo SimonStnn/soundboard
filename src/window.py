@@ -28,9 +28,13 @@ class Display:
     def __init__(self, *, width: int = 800, height: int = 600):
         self.width = width
         self.height = height
+        # Set icon and caption
+        icon = pygame.image.load("./images/icon.ico")
+        pygame.display.set_icon(icon)
+        pygame.display.set_caption("Soundboard")
+
         pygame.display.set_mode((width, height))
         pygame.init()
-        pygame.display.set_caption("Soundboard")
 
     def resize(self, width: int | None, height: int | None):
         if width is None:
