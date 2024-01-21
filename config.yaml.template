@@ -11,3 +11,5 @@ button:
   # Color of the button in hex format
   color: "#22c55e"
   background_color: "#1c1917"
+  # Set the size of the text in the button
+  font_size: 36

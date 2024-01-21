@@ -10,6 +10,7 @@ class ButtonConfig(TypedDict):
     height: int
     color: str
     background_color: str
+    font_size: int
 
 
 class Config(TypedDict):
