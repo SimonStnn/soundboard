@@ -96,7 +96,7 @@ class Button:
         self.height = height
         self.rect = pygame.Rect(x, y, width, height)
         self.on_click_sound = sound
-        self.font = pygame.font.Font(None, 36)
+        self.font = pygame.font.Font(None, config_manager.config["button"]["font_size"])
 
     @property
     def text(self):
