@@ -8,7 +8,7 @@ To get started download the [`soundboard.zip`](https://github.com/SimonStnn/soun
 
 ### Config
 
-You can customize the soundboard to your liking in the config. If you want to keep the default, you can ignore this section.
+You can customize the soundboard to your liking in the config. If you want to keep the default, you can ignore this section and skip to [Installing a virtual cable](#installing-a-virtual-cable).
 
 #### Manually
 
