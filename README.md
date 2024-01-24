@@ -2,6 +2,19 @@
 
 This Python-based soundboard project allows you to play audio through your microphone, creating a customizable and interactive soundboard experience. Easily trigger your favorite sounds or effects in real-time during virtual meetings, live streams, or casual conversations.
 
+## Table of contents
+
+- [Soundboard](#soundboard)
+  - [Table of contents](#table-of-contents)
+  - [🚀 Get started](#-get-started)
+    - [Downloading the program](#downloading-the-program)
+      - [Download from release](#download-from-release)
+      - [Clone the project](#clone-the-project)
+    - [Config](#config)
+      - [Manually](#manually)
+      - [Automatically](#automatically)
+    - [Installing a virtual cable](#installing-a-virtual-cable)
+
 ## 🚀 Get started
 
 ### Downloading the program
