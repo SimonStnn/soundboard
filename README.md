@@ -17,3 +17,7 @@ To manually make the config, rename `config.yaml.template` to `config.yaml` and 
 #### Automatically
 
 A copy of the `config.yaml.template` will be made the first time you run the program. Once the `config.yaml` file is made you can make changes and customize the soundboard.
+
+### Installing a virtual cable
+
+To play the audio trough the microphone you'll need a virtual cable. You can do this at [VB-audio](https://vb-audio.com/Cable/) or with any other virtual cable software.
