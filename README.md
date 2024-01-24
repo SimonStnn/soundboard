@@ -4,7 +4,13 @@ This Python-based soundboard project allows you to play audio through your micro
 
 ## 🚀 Get started
 
+### Downloading the program
+
+#### Download from release
+
 To get started download the [`soundboard.zip`](https://github.com/SimonStnn/soundboard/releases/latest/download/soundboard.zip) file from the latest release. After downloading, unzip the file and run `soundboard.exe`.
+
+#### Clone the project
 
 ### Config
 
