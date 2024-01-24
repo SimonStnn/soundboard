@@ -12,6 +12,32 @@ To get started download the [`soundboard.zip`](https://github.com/SimonStnn/soun
 
 #### Clone the project
 
+Clone the project.
+
+```bash
+git clone https://github.com/SimonStnn/soundboard.git
+cd soundboard
+```
+
+Set up venv (optional)
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+```
+
+Install requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+Build the exe
+
+```bash
+pyinstaller --distpath . --name soundboard --icon .\images\icon.ico --windowed --onefile .\src\main.py
+```
+
 ### Config
 
 You can customize the soundboard to your liking in the config. If you want to keep the default, you can ignore this section and skip to [Installing a virtual cable](#installing-a-virtual-cable).
