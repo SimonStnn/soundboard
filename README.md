@@ -21,3 +21,5 @@ A copy of the `config.yaml.template` will be made the first time you run the pro
 ### Installing a virtual cable
 
 To play the audio trough the microphone you'll need a virtual cable. You can do this at [VB-audio](https://vb-audio.com/Cable/) or with any other virtual cable software.
+
+> Follow the instructions on the website to setup your virtual cable.
