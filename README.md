@@ -14,6 +14,7 @@ This Python-based soundboard project allows you to play audio through your micro
       - [Manually](#manually)
       - [Automatically](#automatically)
     - [Installing a virtual cable](#installing-a-virtual-cable)
+  - [Add audio](#add-audio)
 
 ## 🚀 Get started
 
@@ -70,3 +71,7 @@ A copy of the `config.yaml.template` will be made the first time you run the pro
 To play the audio trough the microphone you'll need a virtual cable. You can do this at [VB-audio](https://vb-audio.com/Cable/) or with any other virtual cable software.
 
 > Follow the instructions on the website to setup your virtual cable.
+
+## Add audio
+
+You can add your own audio files to the `audio` folder. After adding them you may need to restart the program so they are loaded correctly.
