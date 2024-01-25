@@ -75,3 +75,7 @@ To play the audio trough the microphone you'll need a virtual cable. You can do 
 ## Add audio
 
 You can add your own audio files to the `audio` folder. After adding them you may need to restart the program so they are loaded correctly.
+
+---
+
+> Thank you for using my soundboard. 😄
